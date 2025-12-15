@@ -11,8 +11,7 @@
 
 ---
 
-## 2. Inventory Page  
-**URL:** https://www.saucedemo.com/inventory.html
+## 2. Common Layout Components
 
 ### 2.1 Navigation & Header
 - Hamburger menu icon
@@ -24,7 +23,21 @@
 - Swag Labs title text
 - Cart icon (navigation link)
 
-### 2.2 Product Listing
+### 2.2 Footer
+- Social media icons
+  - Twitter (external link)
+  - Facebook (external link)
+  - LinkedIn (external link)
+- Copyright text
+  - © 2025 Sauce Labs. All Rights Reserved.
+  - Terms of Service | Privacy Policy
+
+---
+
+## 3. Inventory Page
+**URL:** https://www.saucedemo.com/inventory.html
+
+### 3.1 Product Listing
 - Products title text
 - Product sorting (Filter)
   - Name (A to Z) – default
@@ -32,30 +45,23 @@
   - Price (Low to High)
   - Price (High to Low)
 
-- Product list layout
-  - Two-column layout
-  - Total of 6 products
+### 3.2 Product List Layout
+- Two-column layout
+- Total of 6 products
 
-- Product item details
-  - Product image (clickable link)
-  - Product name (clickable link)
-  - Product description text
-  - Product price text
-  - Add to cart button
+### 3.3 Product Item Details
+- Product image (clickable link)
+- Product name (clickable link)
+- Product description text
+- Product price text
+- Add to cart button
 
 ---
 
-## 3. Product Detail Page  
+## 4. Product Detail Page
 **URL:** https://www.saucedemo.com/inventory-item.html?id=0
 
-### 3.1 Common Elements
-- Hamburger menu
-- Swag Labs title
-- Cart icon
-- Social media icons
-- Copyright and privacy policy text
-
-### 3.2 Product Information
+### 4.1 Product Information
 - Back to Products button (with back arrow)
 - Product image (larger size)
 - Product name text
@@ -63,13 +69,13 @@
 - Product price text
 - Add to cart button
 
-### 3.3 Add to Cart Behavior
+### 4.2 Add to Cart Behavior
 - Add to cart button changes to **Remove** after click
 - Button color changes to red when item is added
 
 ---
 
-## 4. Cart Page (Your Cart)
+## 5. Cart Page (Your Cart)
 - Quantity (QTY) column
 - Description column
 - Quantity box (non-editable)
@@ -82,7 +88,7 @@
 
 ---
 
-## 5. Checkout – Your Information  
+## 6. Checkout – Your Information
 **URL:** https://www.saucedemo.com/checkout-step-one.html
 
 - First Name input field
@@ -93,9 +99,10 @@
 
 ---
 
-## 6. Checkout – Overview  
+## 7. Checkout – Overview
 **URL:** https://www.saucedemo.com/checkout-step-two.html
 
+### 7.1 Order Details
 - Quantity (QTY) column
 - Description column
 - Quantity box (non-editable)
@@ -103,13 +110,13 @@
 - Product description text
 - Product price text
 
-### Payment Information
+### 7.2 Payment Information
 - SauceCard #31337
 
-### Shipping Information
+### 7.3 Shipping Information
 - Free Pony Express Delivery!
 
-### Price Summary
+### 7.4 Price Summary
 - Item total
 - Tax
 - Total price
@@ -119,7 +126,7 @@
 
 ---
 
-## 7. Checkout – Complete  
+## 8. Checkout – Complete
 **URL:** https://www.saucedemo.com/checkout-complete.html
 
 - Success icon (green checkmark)
@@ -130,18 +137,6 @@
 
 ---
 
-## 8. Footer
-- Social media icons
-  - Twitter (external link)
-  - Facebook (external link)
-  - LinkedIn (external link)
-- Copyright text
-  - © 2025 Sauce Labs. All Rights Reserved.
-  - Terms of Service | Privacy Policy
-
----
-
 ## 9. Known Issues / Observed Bugs
 - Filter icon does not change orientation when a sorting option is selected
 - Cursor does not change to pointer when hovering over Cart icon
-
